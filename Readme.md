@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Elizaveta Podushkina](https://up.htmlacademy.ru/htmlcss-individual/2/user/2656251).
-* Наставник: `Неизвестно`.
+* Наставник:[Ирина Малиновская](https://htmlacademy.ru/profile/irina-malinovskaya).
 
 ---
 
