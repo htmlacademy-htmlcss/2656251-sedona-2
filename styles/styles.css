@@ -169,10 +169,6 @@ body {
   margin-right: 70px;
 }
 
-.navigation .user-bar .navigation-item:nth-child(2) .navigation-link {
-  position: relative;
-}
-
 .navigation-link {
   position: relative;
   display: inline-block;
@@ -183,6 +179,15 @@ body {
   color: rgba(0, 0, 0, 1);
   text-decoration: none;
   padding: 20px 16px;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.navigation-link:active {
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .navigation-link-user {
@@ -257,6 +262,7 @@ body {
 .hero {
   width: 1200px;
   min-height: 485px;
+  background-color: rgba(131, 179, 211, 0.12);
   background-image: url("../images/index-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -439,6 +445,26 @@ body {
 
 }
 
+.facilities-img {
+  display: block;
+  width: 75px;
+  height: 75px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.facilities-img-house {
+  background-image: url("../images/advantage-1.svg");
+}
+
+.facilities-img-burger {
+background-image: url("../images/advantage-2.svg");
+}
+
+.facilities-img-gift {
+background-image: url("../images/advantage-3.svg");
+}
+
 .facilities-description {
   font-size: 18px;
   line-height: 21px;
@@ -490,6 +516,7 @@ body {
 
 .subscribe-main {
   padding: 96px 258px 104px 258px;
+  background-color: rgba(131, 179, 211, 0.12);
   background-image: url("../images/subscribe-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -640,9 +667,9 @@ body {
   text-transform: uppercase;
   text-align: center;
   color: rgba(0, 0, 0, 1);
-  width: 331px;
   justify-self: center;
   padding-left: 30px;
+  white-space: nowrap;
 }
 
 .footer-number:hover,
@@ -676,6 +703,7 @@ body {
 }
 
 .search-section {
+  background-color: rgba(131, 179, 211, 0.12);
   background-image: url("../images/search-section-background.jpg");
   padding: 35px 70px 70px 70px;
   background-repeat: no-repeat;
