@@ -6,6 +6,7 @@
     <title>HTML Academy: Седона</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
   </head>
 
   <body>
@@ -115,18 +116,18 @@
             </div>
             <ul class="facilities-list list-reset">
               <li class="facilities-list-items advantages-light">
-                <img src="images/advantage-1.svg" alt="" width="75" height="72">
+                <span class="facilities-img facilities-img-house"></span>
                 <h3 class="facilities-title">Жильё</h3>
                 <p class="facilities-description">Рекомендуем пожитьв<br> настоящем мотеле,<br> всё как в кино!</p>
               </li>
               <li class="facilities-list-items">
-                <img src="images/advantage-2.svg" alt="" width="75" height="72">
+                <span class="facilities-img facilities-img-burger"></span>
                 <h3 class="facilities-title">Еда</h3>
                 <p class="facilities-description">Всегда заказывайте<br> топовый фирменный бургер,<br> вы не
                   разочаруетесь!</p>
               </li>
               <li class="facilities-list-items advantages-light">
-                <img src="images/advantage-3.svg" alt="" width="75" height="72">
+                <span class="facilities-img facilities-img-gift"></span>
                 <h3 class="facilities-title">Сувениры</h3>
                 <p class="facilities-description">Не только китайского,<br> но и настоящего местного<br> производства!
                 </p>
@@ -150,7 +151,7 @@
             <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
               <label class="visually-hidden" for="subscribe-email">Укажите ваш e-mail</label>
               <input class="field type-email" type="text" id="subscribe-email" name="user-email"
-                placeholder="Ваш e-mail">
+                placeholder="Ваш e-mail" required>
               <button class="button button-blue" type="submit">Подписаться</button>
             </form>
           </section>
@@ -199,6 +200,7 @@
             <a class="footer-number" href="tel:+78128121212">+7 (812) 812-12-12</a>
 
             <a class="author-logo" href="https://htmlacademy.ru/">
+              <span class="visually-hidden">HTML Academy</span>
               <svg width="115" height="34" viewBox="0 0 115 34" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 13.7232V16.3232H2.5V13.7232H0Z" />
                 <path
@@ -233,7 +235,7 @@
 
       <div class="modal-container modal-container-close">
         <div class="modal modal-auth">
-          <button class="modal-close-button">
+          <button type="button" class="modal-close-button">
             <span class="visually-hidden">Закрыть</span>
           </button>
           <section class="modal-content">
@@ -267,7 +269,7 @@
                         <path d="M0 0L0 2L14 2V0L0 0Z" fill="currentColor" />
                       </svg>
                     </button>
-                    <input class="auth-form-field auth-form-field-people" type="number" name="adults" id="adults">
+                    <input class="auth-form-field auth-form-field-people" type="number" name="adults" id="adults" placeholder="2">
                     <button type="button" class="counter-button counter-plus" aria-label="Увеличить количество">
                       <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor"
                         xmlns="http://www.w3.org/2000/svg">
@@ -304,7 +306,7 @@
                         <path d="M0 0L0 2L14 2V0L0 0Z" fill="currentColor" />
                       </svg>
                     </button>
-                    <input class="auth-form-field auth-form-field-people" type="number" name="children" id="children">
+                    <input class="auth-form-field auth-form-field-people" type="number" name="children" id="children" placeholder="2">
                     <button type="button" class="counter-button counter-plus" aria-label="Увеличить количество">
                       <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor"
                         xmlns="http://www.w3.org/2000/svg">
